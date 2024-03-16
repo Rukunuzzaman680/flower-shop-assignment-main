@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  margin: 3px 2px;
+  padding: 0px;
+}
+
+header {
+  height: 650px;
+  background-color: #f0e3e7;
+  display: flex;
+}
+header div {
+  margin: 150px 100px 150px 250px;
+}
+header h1 {
+  font-size: 50px;
+  color: #272727;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+header p {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #272727;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+}
+header img {
+  margin: 50px 240px 0px 0px;
+  width: 440px;
+  height: 600px;
+}
+
+/* feature section */
+
+.feature {
+  margin: 170px 170px 50px;
+  text-align: center;
+}
+.feature h1 {
+  font-size: 40px;
+  color: #272727;
+  font-weight: 800;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 20px;
+}
+.feature p {
+  font-size: 18px;
+  color: #a4a1a1;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+}
+
+/* flower */
+.flower {
+  padding: 0px 350px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 25px;
+}
+/* --------- */
+.flower1 {
+  width: 394px;
+  height: 438px;
+  border-radius: 232px 232px 0px 0px;
+  background-color: #cae9ea;
+}
+.flower1 img {
+  margin-top: 90px;
+  margin-left: 50px;
+  width: 300px;
+  height: 300px;
+}
+/* -------- */
+.flower2 {
+  width: 394px;
+  height: 438px;
+  border-radius: 232px 232px 0px 0px;
+  background-color: #eacbda;
+}
+.flower2 img {
+  margin-top: 72px;
+  margin-left: 50px;
+  width: 250px;
+  height: 365px;
+}
+/* -------- */
+.flower3 {
+  width: 394px;
+  height: 438px;
+  border-radius: 232px 232px 0px 0px;
+  background-color: #d6eac2;
+}
+.flower3 img {
+  margin-top: 27px;
+  margin-left: 60px;
+  width: 250px;
+  height: 410px;
+}
+/* --------- */
+.flower p {
+  margin-top: 32px;
+  text-align: center;
+  font-size: 24px;
+  text-decoration: underline;
+  color: #272727;
+  font-weight: 700;
+  font-family: 'Lato';
+}
+
+/* ------ details ------ */
+
+.details {
+  margin: 130px auto;
+  width: 1240px;
+  height: 320px;
+  border-radius: 8px;
+  background-color: #dbd7d7;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.details div {
+  margin-top: 88px;
+}
+
+/* ------ discount ------- */
+
+.discount {
+  width: 100%;
+  height: 620px;
+  border-radius: 8px;
+  background-color: #f1e4e7;
+  display: flex;
+}
+.discount div {
+  margin: 200px 150px 150px 150px;
+}
+.discount h1 {
+  font-size: 40px;
+  color: #272727;
+  font-weight: 800;
+  font-family: 'Lato';
+}
+.discount p {
+  margin-top: 25px;
+  margin-bottom: 35px;
+  font-size: 18px;
+  color: #272727;
+  font-weight: 400;
+  font-family: 'Lato';
+}
+.discount span {
+  font-size: 40px;
+  color: #272727;
+  font-weight: 800;
+  font-family: 'Lato';
+}
+.discount button {
+  width: 155px;
+  height: 64px;
+  border-radius: 8px;
+  background-color: #e55473;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: 'Lato';
+  border: none;
+}
+.discount img {
+  margin: 108px 270px 90px 0px;
+  width: 320px;
+  height: 420px;
+}
+
+/* -------------- */
+.background {
+  margin: 0 auto;
+  width: 1440px;
+  height: 400px;
+  margin-top: 130px;
+  margin-bottom: 80px;
+  background-image: url(images/Rectangle\ 9.png);
+  text-align: center;
+}
+.coupon {
+  padding-top: 120px;
+}
+.background h1 {
+  font-size: 40px;
+  color: #272727;
+  font-weight: 800;
+  font-family: 'Lato';
+  margin-bottom: 16px;
+}
+.background p {
+  font-size: 18px;
+  color: #272727;
+  font-weight: 400;
+  font-family: 'Lato';
+  margin-bottom: 35px;
+}
+.background input {
+  width: 600px;
+  height: 54px;
+  border-radius: 8px;
+  border: none;
+  padding-left: 20px;
+  background-color: #ffffff;
+  outline: none;
+}
+.background input:hover {
+  border: 1px solid pink;
+  background-color: #eacbda;
+}
+.background button {
+  width: 150px;
+  height: 54px;
+  border-radius: 8px;
+  background-color: #e55473;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: 'Lato';
+  border: none;
+}
